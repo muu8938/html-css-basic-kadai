@@ -1,0 +1,45 @@
+body {
+  /* bodyのフォント指定 */
+  font-family: "Arial", "Meiryo", sans-serit;
+}
+
+#google-fonts { 
+  /* ここにGoogle Fontsを指定 */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  /* ルート要素のフォントサイズを20px */
+  font-size: 20px;
+
+  /* テキスト中央寄せ */
+  text-align: center;
+}
+
+h1 {
+  /* h1のフォントサイズをルート要素の2倍にする */
+  font-size: 2em;
+
+  /* 文字間は文字の大きさの1.2倍 */
+  letter-spacing: 1.2em;
+
+  /* 影をつける。影の大きさ色、自由 */
+  text-shadow: 1px 1px 2px gray;
+
+  /* h1の下に3pxの実線。カラー指定 */
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.text-pink {
+  /* 「P、名前、血液型、好きな食べ物」のフォントカラー指定 */
+  color: rgb(255, 192, 203);
+}
+
+.text-sb {
+  /* 「M、生年月日、趣味、プログラミングを始めた理由」のフォントカラー指定 */
+  color: skyblue;
+}
+
+#parent > p {
+font-weight: bold;
+}
